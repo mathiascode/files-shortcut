@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="content://com.android.providers.media.documents/root/images_root"
+        android:icon="@drawable/ic_images_shortcut"
+        android:shortcutShortLabel="@string/images_shortcut_label" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://com.android.providers.media.documents/root/images_root" />
+    </shortcut>
+</shortcuts>
